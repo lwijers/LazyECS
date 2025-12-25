@@ -18,3 +18,7 @@ Thumbs.db
 build/
 dist/
 *.egg-info/
+
+# Local export helpers (ignored)
+export_script.py
+project_export.txt
