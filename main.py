@@ -29,8 +29,8 @@ def main():
         font = pygame.font.SysFont("consolas", 24)
         text = font.render(f"Blank project: {project_name}", True, (200, 200, 200))
         screen.blit(text, (20, 20))
-        text2 = font.render(f"Remove this code to start", True, (200, 200, 200))
-        screen.blit(text, (20, 20))
+        text2 = font.render("Remove this code to start", True, (200, 200, 200))
+        screen.blit(text2, (20, 50))
 
         pygame.display.flip()
 
