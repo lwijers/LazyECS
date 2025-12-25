@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lazyecs"
+version = "0.1.0"
+description = "A small, reusable Entity-Component-System (ECS) core for Python games and simulations."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Lennart Wijers" }
+]
+keywords = ["ecs", "entity-component-system", "game-dev", "pygame", "simulation"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Developers",
+  "Topic :: Games/Entertainment",
+  "Topic :: Software Development :: Libraries",
+]
+
+dependencies = [
+  # core ECS zelf heeft geen hard dependencies
+]
+
+[project.urls]
+Homepage = "https://github.com/lwijers/LazyECS"
+
+[tool.setuptools]
+packages = ["lazyecs"]
+
+[tool.setuptools.package-data]
